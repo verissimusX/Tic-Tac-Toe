@@ -1,0 +1,83 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-image: linear-gradient(to right, #3f8f2c 0%, #fff 100%);
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  line-height: 1.4em;
+  color: #d4d3cc;
+  text-align: center;
+  font-size: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+  width: 350px;
+  overflow: auto;
+  margin: 40px auto;
+  background: #928a90;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+
+#game li {
+  float: left;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  font-size: 55px;
+  background: #505057;
+  color: #d4d3cc;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#game li:hover,
+#new-game:hover {
+  cursor: pointer;
+  background: #000;
+}
+
+#new-game {
+  border: 0;
+  background: #444444;
+  color: #d4d3cc;
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.o {
+  color: #3a6940 !important;
+}
+
+.x {
+  color: rgb(90, 42, 42) !important;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.playerScore {
+  display: inline-block;
+  background: #505057;
+  color: #d4d3cc;
+  border-radius: 5px;
+  text-align: left;
+  padding: 15px;
+  width: 50%;
+  margin: 10px;
+}
+/*
+#score-container {
+  text-align: center;
+  padding-top: 20px;
+} */

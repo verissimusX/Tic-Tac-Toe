@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #c5f1c5;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive;
+  line-height: 1.5em;
+  color: #e6880d;
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  background: coral;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  flex-flow: row wrap;
+}
+
+li {
+  flex: 3 33%;
+  height: 70px;
+  width: 70px;
+  background: darkblue;
+}
