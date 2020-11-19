@@ -1,2 +1,2 @@
 # Tic-Tac-Toe
-Tic Tac Toe game for my portfolio
+Javascript version of tic tac toe 
